@@ -1,0 +1,59 @@
+.hidden {
+  display: none;
+}
+
+img {
+  z-index: -9999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  color: white;
+  text-align: center;
+}
+
+input {
+  color: white;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  text-align: center;
+  width: 200px;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  font-size: 22px;
+}
+
+button {
+  background: none;
+  border: none;
+}
+input::placeholder {
+  color: white;
+}
+
+#greeting {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#clock {
+  font-size: 120px;
+}
+
+
+#text {
+    font-style: italic;
+  }
+
+#author {
+  font-style: italic;
+  font-weight: bold;
+}
